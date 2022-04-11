@@ -1,7 +1,7 @@
 version: "2"
 services:
   web:
-    image: registry.cn-wulanchabu.aliyuncs.com/meijinerp/qrcode_server
+    image: registry-internal.cn-wulanchabu.aliyuncs.com/meijinerp/qrcode_server
     command: npm start
     volumes:
       - .:/app/
